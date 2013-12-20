@@ -1,0 +1,16 @@
+--- a/src/client/ui/main-window.vala
++++ b/src/client/ui/main-window.vala
+@@ -73,7 +73,7 @@
+     }
+     
+     private bool on_delete_event() {
+-        GearyApplication.instance.exit();
++        hide();
+         
+         return true;
+     }
+@@ -198,4 +198,3 @@
+         }
+     }
+ }
+-
